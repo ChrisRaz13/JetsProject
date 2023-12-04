@@ -2,7 +2,7 @@ package com.skilldistillery.jets;
 
 import java.util.Scanner;
 
-public class JetsApplication {
+public class JetsApplication { 
     private static AirField airField = new AirField();
     private static Scanner scanner = new Scanner(System.in);
 
