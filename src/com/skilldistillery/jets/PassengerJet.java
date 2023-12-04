@@ -5,7 +5,7 @@ public class PassengerJet extends Jet {
         super(model, speed, range, price);
     }
 
-    @Override
+    
     public void fly() {
         System.out.println("Passenger jet is flying!");
     }

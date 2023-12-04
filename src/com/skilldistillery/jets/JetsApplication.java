@@ -13,7 +13,7 @@ public class JetsApplication {
         do {
             displayMenu();
             choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -133,7 +133,7 @@ public class JetsApplication {
         System.out.println("3. Fighter Jet");
         System.out.print("Enter your choice: ");
         int jetType = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine(); 
 
         Jet newJet;
         switch (jetType) {
